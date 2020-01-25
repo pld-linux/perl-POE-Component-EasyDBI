@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	POE
 %define	pnam	Component-EasyDBI
 Summary:	POE::Component::EasyDBI - Perl extension for asynchronous non-blocking DBI calls in POE
